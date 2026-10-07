@@ -1,0 +1,114 @@
+QST01
+let numero = -5;
+
+// se for maior que zero é positivo, se não é negativo
+if (numero > 0) {
+    console.log("O número é positivo");
+} else {
+    console.log("O número é negativo");
+}
+
+QST02
+let numero = 7;
+
+let antecessor = numero - 1;
+let sucessor = numero + 1;
+
+console.log("O número é: " + numero);
+console.log("Antecessor: " + antecessor);
+console.log("Sucessor: " + sucessor);
+
+QST03
+let anoNascimento = 2008;
+let anoAtual = 2026;
+
+let idade = anoAtual - anoNascimento;
+
+console.log("Idade: " + idade);
+
+// conferindo se já pode ser preso rs
+if (idade > 18) {
+    console.log("Maior de idade");
+} else {
+    console.log("Menor de idade");
+}
+
+QST04
+let numero = 8;
+
+if (numero % 2 == 0) {
+    console.log("O número é par");
+} else {
+    console.log("Não é par");
+}
+
+QST05
+let numero = 7;
+
+if (numero % 2 != 0) {
+    console.log("O número é ímpar");
+} else {
+    console.log("O número não é ímpar");
+}
+
+QST06
+let valor1 = 10;
+let valor2 = 2;
+
+let soma = valor1 + valor2;
+let subtracao = valor1 - valor2;
+let multiplicacao = valor1 * valor2;
+let divisao = valor1 / valor2;
+let resto = valor1 % valor2;
+
+console.log("Soma: " + soma);
+console.log("Subtração: " + subtracao);
+console.log("Multiplicação: " + multiplicacao);
+console.log("Divisão: " + divisao);
+console.log("Resto: " + resto);
+
+QST07
+let nota1 = 70;
+let nota2 = 60;
+let nota3 = 50;
+// somando as tres notas e dividindo por 3
+let media = nota1 + nota2 + nota3 / 3;
+console.log("Média: " + media);
+if (media >= 60) {
+console.log("Aluno aprovado!");
+} else {
+console.log("Aluno reprovado!");
+}
+
+QST07 Complementar
+let base = 10;
+let altura = 5;
+
+let area = (base * altura) / 2;
+
+console.log("Área do triângulo: " + area + " cm");
+
+QST08
+let altura = 100;
+let largura = 80;
+let profundidade = 50;
+
+let volume = altura * largura * profundidade;
+
+console.log("Volume da caixa d'água: " + volume + " cm cúbicos");
+
+QST09
+let nota1 = 65;
+let nota2 = 70;
+let nota3 = 55;
+
+let media = (nota1 + nota2 + nota3) / 3;
+
+console.log("Média: " + media);
+
+// conferindo a média e se não tirou menos de 50 em nenhuma
+if (media >= 60 && nota1 >= 50 && nota2 >= 50 && nota3 >= 50) {
+    console.log("Situação: Aprovado");
+} else {
+    console.log("Situação: Não foi aprovado");
+}
